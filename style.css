@@ -1,0 +1,44 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: lavender;
+    color: burlywood;
+    text-align: center;
+}
+
+.advent-calendar {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: burlywood;
+    font-size: normal;
+    margin-bottom: 24px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+.day{
+    background-color: rgb(95, 138, 95);
+    color: burlywood;
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 10px;
+
+}
+.day:hover{
+    background-color: aqua;
+    color: blueviolet;
+    transform: scale(1.1);
+}
